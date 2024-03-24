@@ -7,3 +7,4 @@ pip install python-dotenv
 pip install requests
 pip install python-jose
 pip install psycopg2-binary
+pip install gunicorn
