@@ -7,7 +7,6 @@ from functools import wraps
 from authlib.integrations.flask_client import OAuth
 from authlib.jose import jwt
 import urllib.parse
-from token_manager import get_token, set_token
 from auth import *
 
 
