@@ -1,0 +1,265 @@
+{
+	"id": "92e44ad3-4d1e-4e1a-a701-dbbfea2fd03c",
+	"name": "Rubic",
+	"timestamp": "2024-03-07T24:20:44.562Z",
+	"collection_id": "32808179-2a03b431-75f4-4266-b1c8-83f3cacb18df",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-02-07T24:20:42.376Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b1df0501-1602-4eca-9fde-bd1d3a5401f2",
+			"name": "/actors",
+			"url": "https://rubic.onrender.com/actors",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"value contains actors array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"value contains actors array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"value contains actors array": true
+				}
+			]
+		},
+		{
+			"id": "b1df0501-1602-4eca-9fde-bd1d3a5401f2",
+			"name": "/actors/<id>",
+			"url": "https://rubic.onrender.com/actors/3",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"value contains actors array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"value contains actors array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"value contains actors array": true
+				}
+			]
+		},
+		{
+			"id": "b1df0501-1602-4eca-9fde-bd1d3a5401f2",
+			"name": "/movies",
+			"url": "https://rubic.onrender.com/movies",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"value contains movies array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"value contains movies array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"value contains movies array": true
+				}
+			]
+		},	
+		{
+			"id": "b1df0501-1602-4eca-9fde-bd1d3a5401f2",
+			"name": "/movies/<id>",
+			"url": "https://rubic.onrender.com/movies/2",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"value contains movies array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"value contains movies array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"value contains movies array": true
+				}
+			]
+		},	
+
+		{
+			"id": "9f10f55a-4280-4a95-bbbc-da47d31a5152",
+			"name": "/actors/patch",
+			"url": "https://rubic.onrender.com/actors/3",
+			"time": 4,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 403 You do not have permission to access this resource": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403 You do not have permission to access this resource": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 403 You do not have permission to access this resource": true
+				}
+			]
+		},
+		{
+			"id": "5a9502ad-19ad-446a-a992-b269cce668cd",
+			"name": "/actors/delete",
+			"url": "https://rubic.onrender.com/movies/2",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 403 You do not have permission to access this resource": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403 You do not have permission to access this resource": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 403 You do not have permission to access this resource": true
+				}
+			]
+		},
+		{
+			"id": "1be95893-97c8-4cb3-a453-176bddeca8c4",
+			"name": "/actors/post",
+			"url": "https://rubic.onrender.com/actors/1",
+			"time": 5,
+			"responseCode": {
+				"code": 403,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401 You do not have permission to access this resource": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403 You do not have permission to access this resource": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 403 You do not have permission to access this resource": true
+				}
+			]
+		},
+	]
+	"count": 1,
+	"totalTime": 65,
+	"collection": {
+		"requests": [
+			{
+				"id": "b1df0501-1602-4eca-9fde-bd1d3a5401f2",
+				"method": "GET"
+			},
+			{
+				"id": "9f10f55a-4280-4a95-bbbc-da47d31a5152",
+				"method": "GET"
+			},
+			{
+				"id": "5a9502ad-19ad-446a-a992-b269cce668cd",
+				"method": "GET"
+			},
+			{
+				"id": "1be95893-97c8-4cb3-a453-176bddeca8c4",
+				"method": "GET"
+			},
+			{
+				"id": "157c6160-9b4b-470d-a4b4-204f6e444ae8",
+				"method": "PATCH"
+			},
+			{
+				"id": "8c8dc1e9-c932-496e-8a2c-4437988b7295",
+				"method": "DELETE"
+			},
+			{
+				"id": "a2013baa-93f3-4611-b899-336833912718",
+				"method": "POST"
+			},
+
+		]
+	}
+}
