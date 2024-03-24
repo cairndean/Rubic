@@ -1,2 +1,0 @@
-# Rubic
-Rubic Casting Project
